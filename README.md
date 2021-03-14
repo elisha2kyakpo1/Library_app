@@ -2,7 +2,7 @@
 
 ## About the app
 
-> In this I build a books library app where a user can add a book, delete and toggle the status as read or unread.
+> In this project I build a books library app where a user can add a book, delete and toggle the status as read or unread.
 
 ## Getting Started
 
@@ -46,6 +46,8 @@ This project was built using these technologies.
 Javascript
 
 HTML/CSS
+
+Bootstrap
 
 ESlint
 
