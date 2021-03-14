@@ -79,6 +79,16 @@ class StoreBooks {
 
 document.addEventListener('DOMContentLoaded', Display.displayBooks);
 
+btnNode.addEventListener("click", () => {
+  if(btnNode.innerHTML.split(" ")[1] === "Yes") {
+      btnNode.style.backgroundColor = "Red"
+      btnNode.innerText = "Read: No"
+  } else {
+      btnNode.style.backgroundColor = "limegreen"
+      btnNode.innerText = "Read: Yes"
+  }
+})
+
 document.querySelector('#book-form').addEventListener('submit', (e) => {
   e.preventDefault();
 

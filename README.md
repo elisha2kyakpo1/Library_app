@@ -8,7 +8,7 @@
 
 Enjoy app features by openning the link below in the blowser.
 
-[Live link]()
+[Live link](https://elisha2kyakpo1.github.io/Library_app/)
 
 ### Have a copy
 
@@ -53,7 +53,9 @@ ESlint
 
 VSCode editor
 
-Git-Flow
+Git
+
+Github
 ```
 
 ## Contributors
