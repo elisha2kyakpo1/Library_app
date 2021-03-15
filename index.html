@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+    <title>Book-Library</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4">Book<span class="text-primary">Library</span></h1>
+
+        <form action="#" id="book-form">
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input type="text" id="title" class="form-control">
+
+                <label for="author">Author</label>
+                <input type="text" id="author" class="form-control">
+
+                <label for="pages">Number of pages</label>
+                <input type="number" id="pages" class="form-control">
+
+                <div class="two columns mt-2">
+                    <label for="status">Status</label><br>
+                    <select name="status" id="status" class="u-full-width">
+                      <option value="read">Read</option>
+                      <option value="not read">Not read</option>
+                    </select>
+                  </div>
+            </div>
+            <input type="submit" value="Add Book" class="btn btn-primary">
+        </form>
+
+        <table class="table table-striped mt-4">
+            <thead class="thead-dark">
+                <tr>
+                    <th class="display-5 lead text-white">Title</th>
+                    <th class="display-5 lead text-white">Author</th>
+                    <th class="display-5 lead text-white">Number of Pages</th>
+                    <th class="display-5 lead text-white">Status</th>
+                    <th class="display-5 lead text-white">Take action</th>
+                   
+                    
+                </tr>
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+
+        </table>
+    </div>
+    <script src="library.js"></script>
+</body>
+</html>
