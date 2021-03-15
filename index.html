@@ -23,11 +23,13 @@
                 <label for="pages">Number of pages</label>
                 <input type="number" id="pages" class="form-control">
 
-                <span class="readQuestion">Have you read the book?</span>
-                <label class="switch" for="read">
-                    <input type="checkbox" id="read" class="read"/>  
-                    <span class="slider round"></span>
-                </label>
+                <div class="two columns mt-2">
+                    <label for="status">Status</label><br>
+                    <select name="status" id="status" class="u-full-width">
+                      <option value="read">Read</option>
+                      <option value="not read">Not read</option>
+                    </select>
+                  </div>
             </div>
             <input type="submit" value="Add Book" class="btn btn-primary">
         </form>
@@ -38,8 +40,9 @@
                     <th class="display-5 lead text-white">Title</th>
                     <th class="display-5 lead text-white">Author</th>
                     <th class="display-5 lead text-white">Number of Pages</th>
-                    <th class="display-5 lead text-white">Take action</th>
                     <th class="display-5 lead text-white">Status</th>
+                    <th class="display-5 lead text-white">Take action</th>
+                   
                     
                 </tr>
             </thead>
