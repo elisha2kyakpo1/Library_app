@@ -2,7 +2,7 @@
 
 ## About the app
 
-> In this project I build a books library app where a user can add a book, delete and toggle the status as read or unread.
+> In this project I build a books library app where a user can add a book, delete and show the status as read or unread.
 
 ## Getting Started
 
